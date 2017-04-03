@@ -1,0 +1,91 @@
+.download img{
+    height: 50px;
+    float: right;   
+    margin: 20px;
+    opacity: 0.75
+}
+.download img:hover{
+    opacity: 1.0
+}
+#sidebar{
+    background: #fff;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 35px;
+}
+#hello{
+	margin: auto;
+    text-align: center;
+}
+#hello h1{
+    margin-top: -50px;
+    padding: 30px;
+}
+#hello img {
+    height: 300px;
+}
+.typed{
+    font-size: 30px;
+}
+.typed-cursor{
+    font-size: 30px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+#projects li{
+    list-style-type: none;
+    display: inline-block;
+    padding-left: 60px;
+    margin-top: 15px;
+}
+#projects #links a{
+    text-decoration: none;
+    color: #001942;
+}
+#projects .item{
+    border: 2px solid #222;
+    height: 260px;
+    width: 260px;
+    display: inline-block;
+}
+#projects .item img{
+    height: 2vw;
+}
+#projects .item span{
+    text-align: center;
+    margin-left: 30px;
+}
+#projects .item article{
+    text-align: center;
+}
+#projects .item .header{
+    margin-left: 20px;
+    text-align: center;
+}
+#skills{
+    margin:0 auto;
+    text-align: center;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.header{
+	margin: auto;
+}

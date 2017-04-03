@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Rajat Singhal</title>
+
+	<link href="./css/bootstrap.min.css" rel="stylesheet">
+	<link href="./css/hover-min.css" rel="stylesheet">
+	<link href="./css/style.css" rel="stylesheet" type="text/css">
+	<link href="./js/fullPagejs/jquery.fullPage.css" rel="stylesheet"type="text/css" >
+	<link  href="./font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+	<script type="text/javascript" src="./js/jquery.js"></script>
+	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="./js/fullPagejs/jquery.fullPage.js"></script>
+	<script type="text/javascript" src="./js/typed.js"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+		    $('#fullpage').fullpage({
+		    	anchors: ['page1', 'page2', 'page3', 'page4'],
+		    	sectionsColor: ['yellow', 'orange', '#C0C0C0', '#ADD8E6'],
+		    });
+		});
+	</script>
+
+</head>
+<body>
+
+	<a href="./resume/cv.pdf" class="download" data-toggle="tooltip" title="Download CV">
+		<img src="./images/download.png"></a>
+
+	<div id="sidebar"></div>
+
+	<div id="fullpage">
+		
+		<div class="section" id="hello">
+			<h1>HELLO, I AM RAJAT SINGHAL</h1>
+			<img class="profile-image" src="./images/profile-image-2.jpg">
+			<p></p>
+			<span class="typed"></span>
+		</div>
+
+		<div class="section" id="projects">
+			<ul id="links">
+				<li><a href="#page2/0" class="hvr-float-shadow"><h3 id="Chatbots">ChatBots</h3></a></li>
+				<li><a href="#page2/1" class="hvr-float-shadow"><h3 id="Websites">Websites</h3></a></li>
+				<li><a href="#page2/2" class="hvr-float-shadow"><h3 id="Hackathon">Hackathon Projects</h3></a></li>
+			</ul>
+
+			<div class="slide" id="chatbots">
+					<div class="item" id="testing">
+						<span class="header">
+							<img src="./images/ChatBot.png">
+							<strong>ChatBot</strong>
+						</span>
+						<br>
+						<article>
+							My First ever ChatBot deployed on Messenger. It uses different APIs to do wiki search or finding movies/TV shows,youtube queries and supports a blog interface
+						</article>
+						<span>
+							<a href="https://www.facebook.com/hellofchatbot/?fref=ts">
+							<button class="hvr-sweep-to-top"><i class="fa fa-facebook" aria-hidden="true" style="padding:2px;"></i>Visit Page</button></a>
+							<a href="https://github.com/rajat2797/chatbot101">
+							<button class="hvr-sweep-to-top"><i class="fa fa-github" aria-hidden="true" style="padding:2px;"></i>View Code</button></a>
+						</span>
+					</div>
+
+					<div class="item" id="topdf">
+						<span class="header">
+							<img src="./images/pdf.png">
+							<strong>ToPDF</strong>
+						</span>
+						<br>
+						<article>
+							Images to PDF converter messenger bot
+						</article>
+						<span>
+							<a href="https://www.facebook.com/ToPdf-1246717245399975/?fref=ts">
+								<button class="hvr-sweep-to-top"><i class="fa fa-facebook" aria-hidden="true" style="padding:2px;"></i>Visit Page</button></a>
+							<a href="https://github.com/rajat2797/ToPdf-Chatbot">
+								<button class="hvr-sweep-to-top"><i class="fa fa-github" aria-hidden="true" style="padding:2px;"></i>View Code</button></a>
+						</span>
+					</div>
+
+					<div class="item" id="mockstocks">
+						<span class="header">
+							<img src="./images/mockstocks.jpg">
+							<strong>MockStocks Bot</strong>
+						</span>
+						<br>
+						<article>
+							Trade virtually using Messenger Bot
+						</article>
+						<span>
+							<a href="https://www.facebook.com/MockStocks-1832609323624506/?fref=ts">
+								<button class="hvr-sweep-to-top"><i class="fa fa-facebook" aria-hidden="true" style="padding:2px;"></i>Visit Page</button></a>
+							<a href="https://github.com/rajat2797/MockStocksBot">
+								<button class="hvr-sweep-to-top"><i class="fa fa-github" aria-hidden="true" style="padding:2px;"></i>View Code</button></a>
+						</span>
+					</div>
+
+				
+					<div class="item" id="codingblocksbot">
+						<span class="header">
+							<img src="./images/codingblocks.png">
+							<strong>Coding Blocks Bot</strong>
+						</span>
+						<br>
+						<article>
+							Coding Blocks helper Bot on Messenger 
+						</article>
+						<span>
+							<a href="https://www.facebook.com/CodingBlocks-1596714377298115/?fref=ts">
+								<button class="hvr-sweep-to-top"><i class="fa fa-facebook" aria-hidden="true" style="padding:2px;"></i>Visit Page</button></a>
+							<a href="https://github.com/rajat2797/CodingBlocksBot">
+								<button class="hvr-sweep-to-top"><i class="fa fa-github" aria-hidden="true" style="padding:2px;"></i>View Code</button></a>
+						</span>
+					</div>
+			</div>
+
+			<div class="slide" id="websites">
+					<div class="item">
+						<span class="header">
+							<img src="./images/pokemon.png">
+							<strong>Pokemon Website</strong>
+						</span>
+						<br>
+						<article>
+							Pokemon Website built while learning various elements of Web Development
+						</article>
+						<span>
+							<a href="http://poketemple.herokuapp.com">
+								<button class="hvr-sweep-to-top"><i class="fa fa-facebook" aria-hidden="true" style="padding:2px;"></i>Visit Page</button></a>
+							<a href="https://github.com/rajat2797/PokiFind">
+								<button class="hvr-sweep-to-top"><i class="fa fa-github" aria-hidden="true" style="padding:2px;"></i>View Code</button></a>
+						</span>
+					</div>
+				
+			</div>
+
+			<div class="slide" id="hackathons">
+				<h2 style="text-align:center;margin-top:-100px;">Coming Soon</h2>
+			</div>
+
+		</div>
+	
+		<div class="section" id="skills">
+			<div class="row">
+				<div class="col-md-4">C/C++</div>
+				<div class="col-md-4">PYTHON</div>
+				<div class="col-md-4">HTML</div>
+				<div class="col-md-4">CSS</div>
+				<div class="col-md-4">JAVASCRIPT</div>
+			</div>
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="./js/myjs.js"></script>
+
+
+</body>
+</html>
